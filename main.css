@@ -7,6 +7,7 @@
 
 body {
     display: flex;
+    background-color: #232529;
 }
 /* Navbar - left window */
 #navbar {
@@ -20,21 +21,22 @@ body {
     padding: 15px;
     font-size: 1.6rem;
     text-align: center;
+    color: #84A0EF;
 }
 
 .nav-link {
     display: block;
     padding: 20px 0 20px 20px;
     text-decoration: none;
-    color: #4D4E53;
-    border-top: 1px solid #1234;
+    color: #D76256;
+    border-top: 1px solid #eee;
 }
 
 /* Main - right window */
-#main-doc {
+#main_doc {
     padding-left: 20vw;
     font-size: 0.9rem;
-    color: #4D4E53;
+    color: #e2e3e7;
     width: 95%;
     margin: 0 auto;
 }
@@ -58,7 +60,7 @@ body {
 .main-header {
     font-size: 1.5rem;
     padding: 20px 0 20px 0;
-    color: #000;
+    color: #84A0EF;
 }
 
 .main-text {
@@ -81,13 +83,18 @@ body {
 .code {
     font-family: monospace;
     padding: 5px 5px;
-    background-color: #F7F7F7;
+    color: lightgreen;
+    background-color: #000;
     border-radius: 5px;
     display: block;
     line-height: 25px;
 }
 .footer {
     margin-bottom: 30px;
+}
+.footer > li > a {
+    text-decoration: none;
+    color: red;
 }
 
 /* Media Queries */

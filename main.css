@@ -104,21 +104,27 @@ body {
     }
     #navbar {
         width: 100%;
+        text-align: center;
         display: block;
         height: 30vh;
+        position: static;
+        top: 0;
+        height: 35vh;
         background-color: #232529;
+        border-bottom: 2px solid #000;
     }
     .header {
         padding: 5px;
+        font-size: 1.2rem;
     }
     .nav-link {
         padding: 5px 20px;
+        padding: 8px 20px;
     }
     #main_doc {
         width: 100%;
         height: 70vh;
+        padding: 0;
     }
-    #main_doc > section {
-        padding: 30vh 0 0 10px;
-    }
+
 }

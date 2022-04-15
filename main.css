@@ -27,7 +27,7 @@ body {
     padding: 20px 0 20px 20px;
     text-decoration: none;
     color: #4D4E53;
-    border-top: 1px solid #000;
+    border-top: 1px solid #1234;
 }
 
 /* Main - right window */
@@ -39,6 +39,18 @@ body {
     margin: 0 auto;
 }
 
+.top > a {
+    position: fixed;
+    width: 35px;
+    height: 20px;
+    padding: 2px;
+    text-align: center;
+    text-decoration: none;
+    color: yellow;
+    border-radius: 10px 10px;
+    background-color: green;
+    right: 0;
+}
 .main-section {
     padding-left: 30px;
 }
@@ -85,21 +97,23 @@ body {
     }
     #navbar {
         width: 100%;
+        text-align: center;
         display: block;
-        height: 30vh;
+        position: static;
+        top: 0;
+        height: 35vh;
         background-color: #fff;
+        border-bottom: 2px solid #000;
     }
     .header {
         padding: 5px;
+        font-size: 1.2rem;
     }
     .nav-link {
-        padding: 5px 20px;
+        padding: 8px 20px;
     }
-    #main-doc {
+    main {
         width: 100%;
-        height: 70vh;
     }
-    #main-doc > section {
-        padding: 30vh 0 0 10px;
-    }
+
 }

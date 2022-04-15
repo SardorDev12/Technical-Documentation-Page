@@ -122,7 +122,8 @@ body {
         padding: 8px 20px;
     }
     #main_doc {
-        width: 100%;
+        width: 90%;
+        margin: 0 auto;
         height: 70vh;
         padding: 0;
     }
